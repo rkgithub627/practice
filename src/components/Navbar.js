@@ -6,12 +6,11 @@ const navMenu = ['home',
 'ABOUTUS', 
 'CAREEROPPORTUNITY', 
 'EMPLOYER', 
-'ITPROJECTDEVELOPMENT','CONTACTUS ']
+'ITPROJECTDEVELOPMENT','IT TECHNICAL SUPPORT ','CONTACTUS ']
 const Navbar = () => {
   return (
     <nav className='navbar'>
       <div className="navbar-container">
-        <p>Nav</p>
         <h3>MOUNTEVEREST COMPUTEC</h3>
         <ul className="app__navbar-links">
         {navMenu.map((item) => (
@@ -21,8 +20,6 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-
-<p>Nav</p>
         </div>
     </nav>
   )
