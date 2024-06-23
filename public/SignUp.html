@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <header>
+        <h1>Mount Everest Computech</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="AboutUS.html">AboutUS</a></li>
+                <li><a href="CareerOpportunity.html">CareerOpportunity</a></li>
+                <li><a href="SignUp.html">SignUp</a></li>
+                <li><a href="Employer.html">Employer</a></li>
+                <li><a href="ITProjectdevelopment.html">ITProjectdevelopment</a></li>
+                <li><a href="ITTecnicalSupport.html">ITTecnicalSupport</a></li>
+            </ul>
+        </nav>
+    </header>
+    <title>Sign Up - Mount Everest Computech</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input[type="text"], input[type="email"], input[type="password"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <form action="submit_signup.php" method="POST">
+        <h2>Sign Up</h2>
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="submit" value="Sign Up">
+    </form>
+</body>
+</html>

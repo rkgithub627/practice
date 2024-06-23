@@ -1,34 +1,24 @@
-import React from 'react'
-import './home.scss'
+import React from 'react';
+import './home.scss';
 
-const HOME = () => {
+const Home = () => {
   return (
-    <div className='home'>
-     <div className='hero-container'>
-      <video src='videos/video-2.mp4' autoPlay loop muted/>
-<h1>ADVENTURE AWAITS</h1>
-<p> What are you waiting for</p>
-<div className='hero-btns'>
-    <button 
-    className='btns' 
-    buttonStyle='btn-primary'
-    buttonSize='btn--large'
-    >
-  GET STARTED
-  </button>
- <button
-    className='btns' 
-    buttonStyle='btn-outline'
-    buttonSize='btn--large'
-    >
-     WATCH TRAILER <i className='far
-        fa-play-circle'/>
-   </button>
-    </div> 
+    <div className='Home'>
+      <div className='hero-container'>
+        <video src='videos/video-2.mp4' autoPlay loop muted />
+        <h1>Adventure Awaits</h1> {/* Added some content in <h1> for visibility */}
+        <p>What are you waiting for?</p>
+        <div className='hero-btns'>
+          <button className='btns btn-primary btn--large'> {/* Adjusted class names for styling */}
+            GET STARTED
+          </button>
+          <button className='btns btn-outline btn--large'> {/* Adjusted class names for styling */}
+            WATCH TRAILER <i className='far fa-play-circle' />
+          </button>
+        </div>
+      </div>
     </div>
-      
-    </div>
-  )
+  );
 }
 
-export default HOME
+export default Home;
