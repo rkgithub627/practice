@@ -73,3 +73,27 @@ video{
 
     
 }
+/* Reset the padding and margin to remove browser defaults */
+ul {
+    padding: 0;
+    margin-left: 10px;
+    list-style: none;
+}
+
+/* Style for each list item */
+li {
+    display: inline; /* Display list items in a line */
+    margin-right: 20px; /* Space between items */
+}
+
+/* Style for links */
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: rgb(0, 0, 0); /* Set text color */
+    font-weight: bold; /* Make text bold */
+}
+
+/* Change link color on hover */
+a:hover {
+    color: #ffcc00;
+}
